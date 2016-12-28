@@ -257,7 +257,7 @@
             };
             
             items.remove( reqMock, resMock );
-            assert( resMock.send.lastCall.calledWith( { msg: 'Error getting item id: forced error on get' } ), 'Unexpected argument: ' + JSON.stringify(resMock.send.lastCall.args) );
+            assert( resMock.send.lastCall.calledWith( { msg: 'Error getting item id: forced error on get111' } ), 'Unexpected argument: ' + JSON.stringify(resMock.send.lastCall.args) );
         });
     });
 }());
